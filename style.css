@@ -6,7 +6,11 @@
 /* common */
 body{
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
+}
+
+.inline{
+    display: inline-block;
 }
 
 .border{
@@ -17,28 +21,64 @@ body{
     color: white;
 }
 
-/* nav */
-nav{
-    background-color: rgb(41, 41, 41);
-    height: 80px;
-    color: white;
-    display: flex;
-    justify-content: space-between;
+.central{
+    text-align: center;
 }
+
+
 /* big container */
 .big-container{
     background-color: black;
     height: calc(100vh - 80px);
 }
 
-/* right column */
-.right-column{
+/* left column */
+.left-column{
     width: 200px;
+    float: left;
     height: 100%;
 }
 
+.logo{
+    padding: 10px;
+}
+
 /* windows */
+.windows{
+    width: calc(100% - 200px);
+    float: left;
+    background-color: rgb(17, 44, 219);
+}
+
 .windows-header{
+    background-color: black;
     height: 60px;
-    flex-direction: column;
+    width: 100%;    
+}
+
+.upgrade{
+    float: right;
+    margin-right: 10px;
+}
+
+.upgrade h5{
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 20%;
+}
+
+.hero-nav ul li{
+    list-style: none;
+    float: left;
+    
+}
+
+
+/* footer nav */
+.footer-nav{
+    background-color: rgb(10, 9, 9);
+    height: 80px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
 }
