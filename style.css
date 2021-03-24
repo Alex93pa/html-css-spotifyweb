@@ -10,7 +10,7 @@ body{
 }
 
 .inline{
-    display: inline-block;
+    display: inline;
 }
 
 .border{
@@ -76,33 +76,43 @@ body{
 .windows{
     width: calc(100% - 200px);
     float: left;
-    background-color: rgb(17, 44, 219);
+    background-color: rgb(11, 21, 87);
+
 }
 
 .windows-header{
     background-color: black;
     height: 60px;
-    width: 100%;    
+    width: 100%;
+    padding: 0;  
 }
 
 .upgrade{
     float: right;
-    margin-right: 10px;
-}
-
-.upgrade h5{
     border: 1px solid white;
-    padding: 8px;
-    border-radius: 20%;
+    border-radius: 20px;
+    padding: 1px 10px;
+    line-height: 20px;
+    vertical-align: middle;
+    margin: 10px;
 }
 
+
+.hero-nav{
+    height: 30px;
+}
 .hero-nav ul li{
     list-style: none;
     float: left;
+    margin: 0 20px;
     
 }
 
+/* albums */
 
+.hero-box{
+    padding: 0 10px;
+}
 /* footer nav */
 .footer-nav{
     background-color: rgb(10, 9, 9);
@@ -111,3 +121,4 @@ body{
     display: flex;
     justify-content: space-between;
 }
+
