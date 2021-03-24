@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* common */
+body{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.border{
+    border: 1px solid white;
+}
+
+.white{
+    color: white;
+}
+
+/* nav */
+nav{
+    background-color: rgb(41, 41, 41);
+    height: 80px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+/* big container */
+.big-container{
+    background-color: black;
+    height: calc(100vh - 80px);
+}
+
+/* right column */
+.right-column{
+    width: 200px;
+    height: 100%;
+}
+
+/* windows */
+.windows-header{
+    height: 60px;
+    flex-direction: column;
+}
