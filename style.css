@@ -21,6 +21,10 @@ body{
     color: white;
 }
 
+.grey{
+    color: grey;
+}
+
 .center{
     text-align: center;
 }
@@ -112,24 +116,28 @@ body{
     line-height: 20px;
     vertical-align: middle;
     margin: 10px;
+    margin-right: 20px;
 }
 
+.upgrade:hover {
+    transform: scale(1.2);
+  }
 
 .hero-nav{
     height: 30px;
 }
 .hero-nav ul li{
     list-style: none;
-    float: left;
-    margin: 0 20px;
-    
+    display: inline;
+    margin: 0 20px;  
 }
 
 /* albums */
 
 .hero-box{
+    flex-grow: 1;
     padding: 0 10px;
-    overflow-y: scroll;
+    overflow: auto;
 }
 /* footer nav */
 .footer-nav{
@@ -148,5 +156,9 @@ body{
 
 .album-img img{
     width: 100%;
+}
+
+.img-radius{
+    border-radius: 50%;
 }
 
