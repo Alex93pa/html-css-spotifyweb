@@ -72,6 +72,23 @@ body{
     margin: 10px 0;
 }
 
+.left-column-xs{
+    width: 70px;
+    float: left;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.xs-icon{
+    margin-bottom: 10px ;
+}
+
+.xs-left-loghi-down{
+    justify-content: flex-end;
+}
+
 /* windows */
 .windows{
     width: calc(100% - 200px);
