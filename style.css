@@ -173,13 +173,17 @@ body{
     top: 0;
 }
 
+.border-rad{
+    border-radius: 50%;
+}
+
 .album-img:hover .play-hover{
     display: block;
 }
 
 .play-img{
-    top: 50%;
-    left: 50%;
+    top: 40%;
+    left: 40%;
     position: relative;
     transform: translate(-50%, - 50%);
 }
