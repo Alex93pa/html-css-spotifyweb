@@ -40,6 +40,10 @@ a{
     padding-left: 25px;
 }
 
+.right{
+    float: right;
+}
+
 /* big container */
 .big-container{
     background-color: black;
@@ -116,7 +120,8 @@ a{
 .windows-header{
     background-color: rgb(8, 8, 8);
     height: 60px;
-    width: 100%;
+    width: calc(100% - 200px);
+    float: right;
     padding: 0;  
 }
 
@@ -171,6 +176,7 @@ a{
 }
 
 .album-box{
+    vertical-align: top;
     display: inline-block;
     width: calc((100% / 6) - 10px);
     padding: 5px;
@@ -225,6 +231,10 @@ a{
     .windows{
         width: calc(100% - 70px);
     }
+
+    .windows-header{
+        width: calc(100% - 70px);
+    }
     
     .album-box{
         display: inline-block;
@@ -272,16 +282,35 @@ a{
 .play-music{
     flex-grow: 1;
 }
+
 .length-bar {
     height: 4px;
     background-color: grey;
     border-radius: 2px;
     cursor: pointer;
     width: 60%;
+    vertical-align: middle;
 }
+
 .progress-bar {
     width: 20%;
     height: 4px;
     border-radius: 2px;
     background-color: white;
+}
+
+.progress-bar:hover{
+    background-color: yellow;
+}
+
+.fa.right{
+    position: absolute;
+    display: none;
+    color: yellow;
+    margin-top: -4px;
+}
+
+.progress-bar:hover .fa.right{
+    position: relative;
+    display: block;
 }
