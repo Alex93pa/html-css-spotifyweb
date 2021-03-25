@@ -222,6 +222,10 @@ a{
 }
 
 @media screen and (max-width:768px){
+    .windows{
+        width: calc(100% - 70px);
+    }
+    
     .album-box{
         display: inline-block;
         width: calc((100% / 2) - 5px);
