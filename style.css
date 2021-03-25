@@ -143,7 +143,8 @@ body{
 .hero-nav ul li a:hover,
 .upgrade a:hover,
 .ul-left-column li a:hover,
-.playlist ul li a:hover{
+.playlist ul li a:hover,
+.description .install:hover{
     color: white;
     text-decoration: none;
 }
@@ -217,12 +218,32 @@ body{
 }
 
 
-
-/* footer nav */
+/*  toolbar footer nav */
 .footer-nav{
     background-color: rgb(24, 21, 21);
     height: 70px;
     color: white;
     display: flex;
     justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.album-now-img{
+    width: 50px;
+    height: 100%;
+}
+
+.footer-img{
+    width: 50px;
+    float: left;
+}
+
+.album-now-title{
+    float: left;
+    margin: 0 20px;
+}
+
+.album-now-fav{
+    float: left;
+    line-height: 50px;
 }
