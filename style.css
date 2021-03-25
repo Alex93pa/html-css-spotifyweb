@@ -198,6 +198,25 @@ body{
     transform: translate(-50%, - 50%);
 }
 
+@media screen and (max-width:992px){
+    .album-box{
+        display: inline-block;
+        width: calc((100% / 4) - 10px);
+        padding: 5px;
+    }
+    
+}
+
+@media screen and (max-width:768px){
+    .album-box{
+        display: inline-block;
+        width: calc((100% / 2) - 5px);
+        padding: 5px;
+    }
+    
+}
+
+
 
 /* footer nav */
 .footer-nav{
