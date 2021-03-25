@@ -97,7 +97,7 @@ body{
 .windows{
     width: calc(100% - 200px);
     float: left;
-    background-color: rgb(6, 10, 36);
+    background-color: rgb(5, 7, 26);
     height: calc(100vh - 60px - 70px);
     display: flex;
 }
@@ -122,6 +122,7 @@ body{
 
 .upgrade:hover {
     transform: scale(1.2);
+    text-decoration: none;
   }
 
 .hero-nav{
@@ -135,7 +136,16 @@ body{
 .hero-nav ul li{
     list-style: none;
     display: inline;
-    margin: 20px;  
+    margin: 20px; 
+    font-weight: 800; 
+}
+
+.hero-nav ul li a:hover,
+.upgrade a:hover,
+.ul-left-column li a:hover,
+.playlist ul li a:hover{
+    color: white;
+    text-decoration: none;
 }
 
 /* albums */
