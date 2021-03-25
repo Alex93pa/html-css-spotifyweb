@@ -21,7 +21,7 @@ body{
     color: white;
 }
 
-.central{
+.center{
     text-align: center;
 }
 
@@ -129,6 +129,7 @@ body{
 
 .hero-box{
     padding: 0 10px;
+    overflow-y: scroll;
 }
 /* footer nav */
 .footer-nav{
@@ -137,5 +138,15 @@ body{
     color: white;
     display: flex;
     justify-content: space-between;
+}
+
+.album-box{
+    display: inline-block;
+    width: calc((100% / 6) - 10px);
+    padding: 5px;
+}
+
+.album-img img{
+    width: 100%;
 }
 
