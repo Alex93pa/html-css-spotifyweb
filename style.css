@@ -13,6 +13,9 @@ body{
     display: inline;
 }
 
+.inline-b{
+    display: inline-block;
+}
 .border{
     border: 1px solid white;
 }
@@ -22,6 +25,10 @@ body{
 }
 
 .grey{
+    color: grey;
+}
+
+a{
     color: grey;
 }
 
@@ -67,6 +74,10 @@ body{
 .plus{
     width: 35px;
     background: white;
+}
+
+.new-playlist{
+    margin: 10px 0;
 }
 
 .horizontal-line{
@@ -144,7 +155,9 @@ body{
 .upgrade a:hover,
 .ul-left-column li a:hover,
 .playlist ul li a:hover,
-.description .install:hover{
+.description .install:hover,
+.footer-nav .album-now-title .hover a:hover,
+.play-music div a:hover{
     color: white;
     text-decoration: none;
 }
@@ -246,4 +259,25 @@ body{
 .album-now-fav{
     float: left;
     line-height: 50px;
+}
+
+.music-icon{
+    margin: 0 20px;
+}
+
+.play-music{
+    flex-grow: 1;
+}
+.length-bar {
+    height: 4px;
+    background-color: grey;
+    border-radius: 2px;
+    cursor: pointer;
+    width: 60%;
+}
+.progress-bar {
+    width: 20%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: white;
 }
