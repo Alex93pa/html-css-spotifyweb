@@ -162,7 +162,8 @@ a{
 .playlist ul li a:hover,
 .description .install:hover,
 .footer-nav .album-now-title .hover a:hover,
-.play-music div a:hover{
+.play-music div a:hover
+.volume .vol-left .foot.icon a .fa:hover{
     color: white;
     text-decoration: none;
 }
@@ -315,9 +316,15 @@ a{
 }
 
 .volume{
+    width: 200px;
     line-height: 50px;
 }
 
 .foot-icon{
-    margin: 0 10px;
+    margin: 0 8px;
+}
+
+.vol-left{
+    width: 50%;
+    float: left;
 }
