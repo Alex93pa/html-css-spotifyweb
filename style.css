@@ -287,7 +287,6 @@ a{
     height: 4px;
     background-color: grey;
     border-radius: 2px;
-    cursor: pointer;
     width: 60%;
     vertical-align: middle;
 }
@@ -313,4 +312,12 @@ a{
 .progress-bar:hover .fa.right{
     position: relative;
     display: block;
+}
+
+.volume{
+    line-height: 50px;
+}
+
+.foot-icon{
+    margin: 0 10px;
 }
