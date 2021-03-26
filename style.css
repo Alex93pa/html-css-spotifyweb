@@ -157,6 +157,11 @@ a{
     font-weight: 800; 
 }
 
+.underline{
+    border-bottom: 3px solid greenyellow;
+}
+
+/* hover */
 .hero-nav ul li a:hover,
 .upgrade a:hover,
 .ul-left-column li a:hover,
