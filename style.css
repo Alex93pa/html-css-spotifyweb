@@ -69,6 +69,7 @@ a{
 
 .playlist{
     flex-grow: 1;
+    overflow: scroll;
 }
 
 .playlist ul{
@@ -219,31 +220,6 @@ a{
     transform: translate(-50%, - 50%);
 }
 
-@media screen and (max-width:992px){
-    .album-box{
-        display: inline-block;
-        width: calc((100% / 4) - 10px);
-        padding: 5px;
-    }
-    
-}
-
-@media screen and (max-width:768px){
-    .windows{
-        width: calc(100% - 70px);
-    }
-
-    .windows-header{
-        width: calc(100% - 70px);
-    }
-    
-    .album-box{
-        display: inline-block;
-        width: calc((100% / 2) - 5px);
-        padding: 5px;
-    }
-    
-}
 
 
 /*  toolbar footer nav */
@@ -293,7 +269,7 @@ a{
 }
 
 .progress-bar {
-    width: 20%;
+    width: 40%;
     height: 4px;
     border-radius: 2px;
     background-color: white;
@@ -328,3 +304,42 @@ a{
     width: 50%;
     float: left;
 }
+
+    
+
+/* Responsive */
+
+    @media screen and (max-width:992px){
+        .album-box{
+            display: inline-block;
+            width: calc((100% / 4) - 10px);
+            padding: 5px;
+        }
+        
+    }
+    
+    @media screen and (max-width:768px){
+        .windows{
+            width: calc(100% - 70px);
+        }
+    
+        .windows-header{
+            width: calc(100% - 70px);
+        }
+        
+        .album-box{
+            display: inline-block;
+            width: calc((100% / 2) - 5px);
+            padding: 5px;
+        }
+    
+        footer .footer-nav{
+            padding: 0;
+        }
+        
+        .volume, .album-now{
+            width: 150px;
+        }
+    
+
+    }
