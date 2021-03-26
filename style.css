@@ -16,6 +16,11 @@ body{
 .inline-b{
     display: inline-block;
 }
+
+.block{
+    display: block;
+}
+
 .border{
     border: 1px solid white;
 }
@@ -238,22 +243,21 @@ a{
 }
 
 .album-now-img{
-    width: 50px;
     height: 100%;
 }
 
 .footer-img{
     width: 50px;
-    float: left;
+    vertical-align: top;
 }
 
 .album-now-title{
-    float: left;
+
     margin: 0 20px;
 }
 
 .album-now-fav{
-    float: left;
+
     line-height: 50px;
 }
 
@@ -296,55 +300,53 @@ a{
     display: block;
 }
 
-.volume{
-    width: 200px;
+/* .volume{
     line-height: 50px;
-}
+} */
 
 .foot-icon{
     margin: 0 8px;
 }
 
-.vol-left{
-    width: 50%;
-    float: left;
+.vol{
+    display: inline;
 }
-
-    
 
 /* Responsive */
 
-    @media screen and (max-width:992px){
-        .album-box{
-            display: inline-block;
-            width: calc((100% / 4) - 10px);
-            padding: 5px;
-        }
-        
+@media screen and (max-width:992px){
+    .album-box{
+        display: inline-block;
+        width: calc((100% / 4) - 10px);
+        padding: 5px;
     }
     
-    @media screen and (max-width:768px){
-        .windows{
-            width: calc(100% - 70px);
-        }
+}
     
-        .windows-header{
-            width: calc(100% - 70px);
-        }
-        
-        .album-box{
-            display: inline-block;
-            width: calc((100% / 2) - 5px);
-            padding: 5px;
-        }
-    
-        footer .footer-nav{
-            padding: 0;
-        }
-        
-        .volume, .album-now{
-            width: 150px;
-        }
-    
+@media screen and (max-width:768px){
+    .windows{
+        width: calc(100% - 70px);
+    }
 
+    .playlist{
+        overflow: hidden;
     }
+
+    .windows-header{
+        width: calc(100% - 70px);
+    }
+    
+    .album-box{
+        display: inline-block;
+        width: calc((100% / 2) - 5px);
+        padding: 5px;
+    }
+
+    footer .footer-nav{
+        padding: 0;
+    }
+        
+    .music-icon {
+        margin: 0 5px;
+    }
+}
