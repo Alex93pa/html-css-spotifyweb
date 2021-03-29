@@ -75,11 +75,13 @@ a{
 
 .playlist{
     flex-grow: 1;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .playlist ul{
     list-style: none;
+    flex-grow: 1;
+    overflow-y: auto;
 }
 
 .plus{
@@ -180,6 +182,10 @@ a{
     text-decoration: none;
 }
 
+i:hover{
+    color: white;
+}
+
 /* albums */
 
 .hero-box{
@@ -216,6 +222,7 @@ a{
     top: 0;
 }
 
+
 .border-rad{
     border-radius: 50%;
 }
@@ -229,6 +236,7 @@ a{
     left: 40%;
     position: relative;
     transform: translate(-50%, - 50%);
+    color: white;
 }
 
 
