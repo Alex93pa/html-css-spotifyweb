@@ -300,16 +300,17 @@ a{
     display: block;
 }
 
-/* .volume{
+.volume{
     line-height: 50px;
-} */
+}
 
 .foot-icon{
     margin: 0 8px;
 }
 
 .vol{
-    display: inline;
+    display: inline-block;
+    justify-content: flex-end;
 }
 
 /* Responsive */
