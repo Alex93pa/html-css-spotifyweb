@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /* common */
 body{
     display: flex;
@@ -252,12 +253,10 @@ a{
 }
 
 .album-now-title{
-
     margin: 0 20px;
 }
 
 .album-now-fav{
-
     line-height: 50px;
 }
 
@@ -313,10 +312,7 @@ a{
     min-width: 50px;
     margin-top: 17%;
 }
-/* .vol{
-    display: inline-block;
-    justify-content: flex-end;
-} */
+
 
 /* Responsive */
 
