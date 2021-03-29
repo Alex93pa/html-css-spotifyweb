@@ -302,16 +302,21 @@ a{
 
 .volume{
     line-height: 50px;
+    display: flex;
 }
 
 .foot-icon{
     margin: 0 8px;
 }
 
-.vol{
+.vol-lenght-bar{
+    min-width: 50px;
+    margin-top: 17%;
+}
+/* .vol{
     display: inline-block;
     justify-content: flex-end;
-}
+} */
 
 /* Responsive */
 
