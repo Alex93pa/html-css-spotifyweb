@@ -199,14 +199,20 @@ i:hover{
     display: inline-block;
     width: calc((100% / 6) - 10px);
     padding: 5px;
+    max-width: 230px;
 }
 
 .album-img{
     position: relative;
 }
 
+.album-img a{
+    display: inline-block;
+}
+
 .album-img img{
     width: 100%;
+
 }
 
 .img-radius{
@@ -232,10 +238,10 @@ i:hover{
 }
 
 .play-img{
-    top: 40%;
-    left: 40%;
+    top: 50%;
+    left: 50%;
     position: relative;
-    transform: translate(-50%, - 50%);
+    transform: translate(-50%, -50%);
     color: white;
 }
 
